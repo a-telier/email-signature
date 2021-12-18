@@ -12,24 +12,34 @@
 
         .email-container{
             height: 80px;
-            width: 200px;
+            width: auto;
             display: inline;
         }
         .img-container{
-            justify-content: center;
+            /* justify-content: center; */
             align-items: center;
             padding-right: 5px;
+            margin: 1%;
+            padding: 1%;
         }
         .content-container{
             height: 100%;
+            width: auto;
             display: inline-block;
-            border-left: 1px solid #6A7D93;
             padding-left: 8px;
-            margin: 2px;
+            margin: 1%;
+            padding: 1%;
+
+            line-height: 0.5;
         }
         .social-container{
             height: 100%;
+            width: 100%;
+            text-align: left;
             display: inline-block;
+        }
+        .social-links{
+            padding: 0.5%;
         }
         .personal-info, .website-link{
             font-family: 'DM Serif Display', serif;
@@ -37,31 +47,27 @@
         .contact-info{
             font-family: 'Lato', sans-serif;
         }
-
     </style>
     <div class="email-container">
         <!-- Image Card -->
         <span class="img-container">
-            <img src="../img/Robbie-square-200x200.png" alt="Robbie Square Logo">
+            <img src="../img/Robbie-square-200x200.png" alt="Robbie Square Logo" style="height:180px;">
         </span>
         <!-- Content Card -->
         <span class="content-container">
             <!-- Contact Information -->
-            <span class="personal-info" style="line-height: 0.5; padding-bottom: 5px;">
+            <span class="personal-info">
                 <h2 style="color:#6A7D93">Shirlina Ang Rosén</h2>
                 <h2 style="color:#91ACC8"><i>Chief Financial Officer</i></h2>
             </span>
-            <p></p>
-            <span class="contact-info" style="line-height: 0.5;">
-                <p>Phone: 07 0000 0000</p>
-                <p>Email:<a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a></p>
+            <hr style="width:10%;text-align:left;margin-left:0;">
+            <span class="contact-info" style="line-height:0.2;padding-top:2%;">
+                <p><span style="color:#6A7D93;padding-left:1%;">Phone: </span>+46 7 0000 0000</p>
+                <p><span style="color:#6A7D93;padding-left:1%;">Email: </span><a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a></p>
             </span>
-            <span>
-                <h2 class="website-link" href="www.hejrobbie.com" target="_blank" style="color:#6A7D93"><i>www.hejrobbie.com</i></h2>
-            </span>
-            <p></p>
+            <h2 class="website-link" href="www.hejrobbie.com" target="_blank" style="color:#6A7D93;padding-top:1%;"><i>www.hejrobbie.com</i></h2>
             <!-- Social Media Links -->
-            <span class="social-container">
+            <span class="social-container" style="padding-top:0.5%;">
                 <span class="social-links">
                     <a href="https://www.facebook.com/hejrobbie/" target="_blank">
                     <img class="social-icon" src="../img/icon-facebook.png" alt="">
