@@ -8,6 +8,35 @@
 </head>
 <body>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:wght@300;400&display=swap');
+
+        .email-container{
+            height: 80px;
+            width: 200px;
+            display: inline;
+        }
+        .img-container{
+            justify-content: center;
+            align-items: center;
+            padding-right: 5px;
+        }
+        .content-container{
+            height: 100%;
+            display: inline-block;
+            border-left: 1px solid #6A7D93;
+            padding-left: 8px;
+            margin: 2px;
+        }
+        .social-container{
+            height: 100%;
+            display: inline-block;
+        }
+        .personal-info, .website-link{
+            font-family: 'DM Serif Display', serif;
+        }
+        .contact-info{
+            font-family: 'Lato', sans-serif;
+        }
 
     </style>
     <div class="email-container">
@@ -16,31 +45,36 @@
             <img src="../img/Robbie-square-200x200.png" alt="Robbie Square Logo">
         </span>
         <!-- Content Card -->
-        <span>
+        <span class="content-container">
             <!-- Contact Information -->
-            <h3>Shirlina Ang Rosén</h3>
-            <h6>07 0000 0000</h6>
-            <h6>
-                <a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a>
-            </h6>
-            <h5>
-                <a href="www.hejrobbie.com" target="_blank">www.hejrobbie.com</a>
-            </h5>
+            <span class="personal-info" style="line-height: 0.5; padding-bottom: 5px;">
+                <h2 style="color:#6A7D93">Shirlina Ang Rosén</h2>
+                <h2 style="color:#91ACC8"><i>Chief Financial Officer</i></h2>
+            </span>
+            <p></p>
+            <span class="contact-info" style="line-height: 0.5;">
+                <p>Phone: 07 0000 0000</p>
+                <p>Email:<a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a></p>
+            </span>
+            <span>
+                <h2 class="website-link" href="www.hejrobbie.com" target="_blank" style="color:#6A7D93"><i>www.hejrobbie.com</i></h2>
+            </span>
+            <p></p>
             <!-- Social Media Links -->
             <span class="social-container">
                 <span class="social-links">
                     <a href="https://www.facebook.com/hejrobbie/" target="_blank">
-                    <img class="social-icon" src="../img/icom-facebook.png" alt="">
+                    <img class="social-icon" src="../img/icon-facebook.png" alt="">
                     </a>
                 </span>
                 <span class="social-links">
                     <a href="https://www.instagram.com/hejrobbie/" target="_blank">
-                    <img class="social-icon" src="../img/icom-instagram.png" alt="">
+                    <img class="social-icon" src="../img/icon-instagram.png" alt="">
                     </a>
                 </span>
                 <span class="social-links">
                     <a href="https://www.tiktok.com/hejrobbie/" target="_blank">
-                    <img class="social-icon" src="../img/icom-tiktok.png" alt="">
+                    <img class="social-icon" src="../img/icon-tiktok.png" alt="">
                     </a>
                 </span>
             </span>
