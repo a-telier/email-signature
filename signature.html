@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+
+    <title>Email Signature</title>
 </head>
 <body>
     <style>
@@ -31,6 +33,7 @@
             padding: 1%;
 
             line-height: 0.5;
+            text-decoration: none;
         }
         .social-container{
             height: 100%;
@@ -46,17 +49,18 @@
         }
         .contact-info{
             font-family: 'Lato', sans-serif;
+            text-decoration: none;
         }
     </style>
     <div class="email-container">
         <!-- Image Card -->
-        <span class="img-container">
-            <img src="https://robbie-signature.s3.eu-north-1.amazonaws.com/Robbie-logo-lightblue-200x200px.png" alt="Robbie Square Logo" style="height:180px;">
-        </span>
+        <!-- <span class="img-container">
+            <img src="https://robbie-signature.s3.eu-north-1.amazonaws.com/Robbie-logo-wnb-200x200px" alt="Robbie Square Logo" style="height:180px;vertical-align:top;">
+        </span> -->
         <!-- Content Card -->
-        <span class="content-container">
+        <!-- <span class="content-container" style="vertical-align:middle"> -->
             <!-- Contact Information -->
-            <span class="personal-info">
+            <!-- <span class="personal-info">
                 <h2 style="color:#6A7D93">Shirlina Ang Rosén</h2>
                 <h2 style="color:#91ACC8"><i>Chief Financial Officer</i></h2>
             </span>
@@ -65,9 +69,9 @@
                 <p><span style="color:#6A7D93;padding-left:1%;">Phone: </span>+46 7 0000 0000</p>
                 <p><span style="color:#6A7D93;padding-left:1%;">Email: </span><a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a></p>
             </span>
-            <h2 class="website-link" href="www.hejrobbie.com" target="_blank" style="color:#6A7D93;padding-top:1%;"><i>www.hejrobbie.com</i></h2>
+            <h2 class="website-link" href="www.hejrobbie.com" target="_blank" style="color:#6A7D93;padding-top:1%;"><i>www.hejrobbie.com</i></h2> -->
             <!-- Social Media Links -->
-            <span class="social-container" style="padding-top:0.5%;">
+            <!-- <span class="social-container" style="padding-top:0.5%;">
                 <span class="social-links">
                     <a href="https://www.facebook.com/hejrobbie/" target="_blank">
                     <img class="social-icon" src="https://robbie-signature.s3.eu-north-1.amazonaws.com/social-icons/facebook.png" alt="">
@@ -83,8 +87,45 @@
                     <img class="social-icon" src="https://robbie-signature.s3.eu-north-1.amazonaws.com/social-icons/tiktok.png" alt="">
                     </a>
                 </span>
+            </span> -->
+        <!-- </span> -->
+
+        <!-- SIMPLE VERSION -->
+        <!-- Content Card -->
+        <span class="content-container" style="vertical-align:middle; width:100%;">
+            <!-- Contact Information -->
+            <span class="personal-info">
+                <p><b>Shirlina Ang Rosén</b></p>
+                <p>Chief Financial Officer</p>
+            </span>
+            <hr style="width:10%;text-align:left;margin-left:0;">
+            <span class="contact-info" style="padding-top:2%;">
+                <p><span style="color:#6A7D93;">Phone: </span>+46 7 0000 0000</p>
+                <p><span style="color:#6A7D93;">Email: </span><a href="mailto:shirlina@hejrobbie.com">shirlina@hejrobbie.com</a></p>
+            </span>
+            <p class="website-link" href="www.hejrobbie.com" target="_blank" style="padding-top:1%;"><i>www.hejrobbie.com</i></p>
+            <!-- Social Media Links -->
+            <span class="social-container" style="padding-top:0.5%;">
+                <span class="social-links">
+                    <a href="https://www.facebook.com/hejrobbie/" target="_blank">
+                    <img class="social-icon" src="https://robbie-signature.s3.eu-north-1.amazonaws.com/social-icons/facebook-wnb.png" alt="">
+                    </a>
+                </span>
+                <span class="social-links">
+                    <a href="https://www.instagram.com/hejrobbie/" target="_blank">
+                    <img class="social-icon" src="https://robbie-signature.s3.eu-north-1.amazonaws.com/social-icons/instagram-wnb.png" alt="">
+                    </a>
+                </span>
+                <span class="social-links">
+                    <a href="https://www.tiktok.com/hejrobbie/" target="_blank">
+                    <img class="social-icon" src="https://robbie-signature.s3.eu-north-1.amazonaws.com/social-icons/tiktok-wnb.png" alt="">
+                    </a>
+                </span>
             </span>
         </span>
     </div>
+    <span class="img-container" style="display:block;">
+        <img src="https://robbie-signature.s3.eu-north-1.amazonaws.com/Robbie-logo-wnb-200x100px.png" alt="Robbie Square Logo" style="height:180px;vertical-align:top;">
+    </span>
 </body>
 </html>
